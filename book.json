@@ -1,3 +1,30 @@
 {
-    "plugins": ["summary"]
+	"title": "AndroidGuide",
+	"author": "贾小昆",
+	"language": "zh-hans",
+	"links": {
+		"sidebar": {
+			"我的GitHub": "https://github.com/zywudev"
+		}
+	},
+	"plugins": [
+		"github",
+		"github-buttons",
+		"back-to-top-button",
+		"splitter"
+	],
+	"pluginsConfig": {
+		"github": {
+			"url": "https://github.com/zywudev/AndroidGuide"
+		},
+		"github-buttons": {
+			"buttons": [{
+				"user": "zywudev",
+				"repo": "AndroidGuide",
+				"type": "star",
+				"size": "small",
+				"count": true
+			}]
+		}
+	}
 }
